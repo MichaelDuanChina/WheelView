@@ -415,7 +415,7 @@ public class WheelView<T> extends ListView implements IWheelView<T> {
                 refreshCurrentPosition(false);
                 setVisibility(View.VISIBLE);
             }
-        }, 500);
+        }, 50);
     }
 
     /**
